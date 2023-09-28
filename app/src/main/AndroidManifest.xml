@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="haloo"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/ProjekLinierLayoutJava"
+        tools:targetApi="31">
+        <activity
+            android:name=".Acara26_2"
+            android:exported="false" />
+        <activity
+            android:name=".Acara23_2"
+            android:exported="false" />
+        <activity
+            android:name=".Acara17"
+            android:exported="false" />
+        <activity
+            android:name=".Acara9_2_RelativeLayout"
+            android:exported="false" />
+        <activity
+            android:name=".Acara9_1_Linearlayout"
+            android:exported="false" />
+        <activity
+            android:name=".Acara10_1"
+            android:exported="false" />
+        <activity
+            android:name=".acara10_2_FrameLayout"
+            android:exported="false" />
+        <activity
+            android:name=".Acara11_1_TableLayout"
+            android:exported="false" />
+        <activity
+            android:name=".Acara11_2_materialdesign"
+            android:exported="false" />
+        <activity
+            android:name=".Acara12_1_ScroolView"
+            android:exported="false" />
+        <activity
+            android:name=".Acara12_2_Horizontal_scrollView"
+            android:exported="false" />
+        <activity
+            android:name=".Acara13_tugas"
+            android:exported="false" />
+        <activity
+            android:name=".Acara12_tugas2"
+            android:exported="false" />
+        <activity
+            android:name=".Acara18"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

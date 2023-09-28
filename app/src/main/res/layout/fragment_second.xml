@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".SecondFragment">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:text="this is Second Fragment"
+        android:textColor="@color/black"
+        android:textSize="25sp"/>
+    <Button
+        android:id="@+id/SecondButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="20dp"
+        android:text="Second Fragment"
+        android:layout_marginRight="20dp"
+        android:background="@color/birutugas1"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+    <AutoCompleteTextView
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="160dp"
+        android:id="@+id/searchbrohh"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:hint="Pilih Item..."
+        android:completionThreshold="1"
+        android:drawableStart="@drawable/ic_searh">
+
+    </AutoCompleteTextView>
+
+
+</RelativeLayout>

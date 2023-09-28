@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Acara12_tugas1">
+    <androidx.cardview.widget.CardView
+        android:layout_width="350dp"
+        android:layout_height="400dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:id="@id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginRight="15dp"
+        android:layout_alignParentStart="true">
+
+        <Button
+            android:id="@+id/circularButton1"
+            android:layout_width="98dp"
+            android:layout_height="98dp"
+            android:layout_gravity="center"
+            android:background="@drawable/circle_launcher_background"
+            android:gravity="center"
+            android:text="1"
+            android:textSize="50dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Linear Layout" />
+
+    </LinearLayout>
+        <LinearLayout
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_centerHorizontal="true">
+
+            <Button
+                android:id="@+id/circularButton2"
+                android:layout_width="98dp"
+                android:layout_height="98dp"
+                android:layout_gravity="center"
+                android:background="@drawable/circle_launcher_background"
+                android:gravity="center"
+                android:text="2"
+                android:textSize="50dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Relative Layout" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/button3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_alignParentEnd="true">
+
+            <Button
+                android:id="@+id/circularButton3"
+                android:layout_width="98dp"
+                android:layout_height="98dp"
+                android:layout_gravity="center"
+                android:background="@drawable/circle_launcher_background"
+                android:gravity="center"
+                android:text="3"
+                android:textSize="50dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Constraint Layout" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/button4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_below="@+id/button1"
+            android:layout_marginTop="16dp"
+            android:layout_alignParentStart="true">
+
+            <Button
+                android:id="@+id/circularButton4"
+                android:layout_width="98dp"
+                android:layout_height="98dp"
+                android:layout_gravity="center"
+                android:background="@drawable/circle_launcher_background"
+                android:gravity="center"
+                android:text="4"
+                android:textSize="50dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Frame Lyout" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/button5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_below="@+id/button1"
+            android:layout_marginTop="16dp"
+            android:layout_centerHorizontal="true">
+
+
+            <Button
+                android:id="@+id/circularButton5"
+                android:layout_width="98dp"
+                android:layout_height="98dp"
+                android:layout_gravity="center"
+                android:background="@drawable/circle_launcher_background"
+                android:gravity="center"
+                android:text="5"
+                android:textSize="50dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Table layout" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/button6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_below="@+id/button3"
+            android:layout_marginTop="16dp"
+            android:layout_alignParentEnd="true">
+
+
+            <Button
+                android:id="@+id/circularButton6"
+                android:layout_width="98dp"
+                android:layout_height="98dp"
+                android:layout_gravity="center"
+                android:background="@drawable/circle_launcher_background"
+                android:gravity="center"
+                android:text="6"
+                android:textSize="50dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Material Design" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/button7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_below="@+id/button4"
+            android:layout_marginTop="16dp"
+            android:layout_alignParentStart="true">
+
+
+            <Button
+                android:id="@+id/circularButton7"
+                android:layout_width="98dp"
+                android:layout_height="98dp"
+                android:layout_gravity="center"
+                android:background="@drawable/circle_launcher_background"
+                android:gravity="center"
+                android:text="7"
+                android:textSize="50dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Scroll view" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/button8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_below="@+id/button5"
+            android:layout_marginTop="16dp"
+            android:layout_centerHorizontal="true">
+
+
+            <Button
+                android:id="@+id/circularButton8"
+                android:layout_width="98dp"
+                android:layout_height="98dp"
+                android:layout_gravity="center"
+                android:background="@drawable/circle_launcher_background"
+                android:gravity="center"
+                android:text="8"
+                android:textSize="50dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="@string/multi_line_text"/>
+
+
+
+        </LinearLayout>
+    </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>

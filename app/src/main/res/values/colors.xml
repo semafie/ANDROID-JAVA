@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="biru_muda">#1BCDDB</color>
+    <color name="biru_tua">#0D2DA0</color>
+    <color name="merah_tua">#C91A1A</color>
+    <color name="orange_tua">#F3610F</color>
+    <color name="orang_muda">#F3980F</color>
+    <color name="colorPrimary">#F50057</color>
+    <color name="colorPrimaryDark">#C51162</color>
+    <color name="colorAccent">#FF80AB</color>
+
+    <color name="birutugas1">#519FCB</color>
+</resources>

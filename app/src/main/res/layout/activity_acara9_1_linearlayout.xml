@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+    tools:context="android.widget.LinearLayout">
+
+
+    <LinearLayout
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:orientation="vertical"
+        tools:context="android.widget.LinearLayout">
+    <EditText
+        android:id="@+id/to"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="to" />
+
+    <EditText
+        android:id="@+id/subject"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="subject" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="top"
+        android:id="@+id/message"
+        android:hint="message"/>
+    <Button
+        android:id="@+id/send"
+        android:layout_width="122dp"
+        android:layout_height="69dp"
+        android:layout_gravity="right"
+        android:text="send"
+        tools:ignore="RtlHardcoded"/>
+</LinearLayout>
+</LinearLayout>
+
