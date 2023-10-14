@@ -27,7 +27,7 @@ public class Acara26_2 extends AppCompatActivity {
 
     public void getPublic(View view){
         File folder = Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_DOWNLOADS);
-        File myFile = new File(folder, "myData1.txt");
+        File myFile = new File(folder, "myDataa.txt");
         String text = getData(myFile);
         if(text != null){
             showtext.setText(text);

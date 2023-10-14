@@ -29,8 +29,9 @@ public class Acara26_SQLLITE extends AppCompatActivity {
     }
     public void savePublic(View view) {
         String info = editText.getText().toString();
+
         File folder = Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_DOWNLOADS);
-        File myFile = new File(folder,"myData1.txt");
+        File myFile = new File(folder,"myDataa.txt");
         writeData(myFile, info);
         editText.setText("");
     }

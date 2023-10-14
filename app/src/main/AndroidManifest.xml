@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
-    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 
     <application
         android:allowBackup="true"
@@ -15,6 +15,24 @@
         android:supportsRtl="true"
         android:theme="@style/ProjekLinierLayoutJava"
         tools:targetApi="31">
+        <activity
+            android:name=".Acara30"
+            android:exported="false" />
+        <activity
+            android:name=".Acara28_updateBiodata"
+            android:exported="false"
+            android:label="Form Update Biodata" />
+        <activity
+            android:name=".Acara28_buatBiodata"
+            android:exported="false"
+            android:label="Buat Biodata" />
+        <activity
+            android:name=".Acara28_lihatBiodata"
+            android:exported="false"
+            android:label="Lihat Biodata" />
+        <activity
+            android:name=".Acara28_2"
+            android:exported="false" />
         <activity
             android:name=".Acara26_2"
             android:exported="false" />
@@ -55,7 +73,7 @@
             android:name=".Acara12_tugas2"
             android:exported="false" />
         <activity
-            android:name=".Acara18"
+            android:name=".Acara22"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
